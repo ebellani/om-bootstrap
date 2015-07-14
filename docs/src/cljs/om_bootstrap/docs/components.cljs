@@ -464,9 +464,9 @@
    function.")
    (TODO)
 
-   (d/p "Auto close after a set time with
-   the " (d/code ":dismiss-after") " option.")
-   (TODO)))
+   (d/p "Auto close after a set time with the " (d/code ":dismiss-after") " option "
+   (d/strong "and") " the " (d/code ":on-dismiss") " option.")
+   (->example (slurp-example "alert/dismissable"))))
 
 ;; ## Carousels
 
